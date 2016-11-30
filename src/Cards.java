@@ -2,22 +2,23 @@
  * Created by darionmoore on 11/29/16.
  */
 public class Cards {
-    private String chanceCard;
-    private String communityChest;
+    private String chanceCard = "Title and Description.";
+    private String communityChestCard = "Title and Description.";
 
-    public String getCommunityChest() {
-        System.out.println("You drew a Community Chest card! Pay everyone 50$");
-        return communityChest;
-
-
+    public String getChance() {
+        return this.chanceCard;
     }
 
-    public String getChanceCard() {
-        System.out.println("You drew a Chance card! Proceed to Jail! Do not pass GO, DO NOT collect 200$");
-        return chanceCard;
-
-
+    public String getCommunity() {
+        return this.communityChestCard;
     }
+
+
+
+
+
+
+
 
 
 }

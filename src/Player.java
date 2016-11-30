@@ -21,18 +21,22 @@ public class Player {
     }
 
     public String getName() {
+
         return this.name;
     }
 
     public int getMoney() {
+
         return this.money;
     }
 
     public String getToken() {
+
         return this.token;
     }
 
     public void payMoney(int paid) {
+
         this.money = this.money - paid;
     }
 

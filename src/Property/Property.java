@@ -27,22 +27,27 @@ package Property;
     }
 
     public String getName() {
+
         return this.name;
     }
 
     public int getPrice() {
+
         return this.price;
     }
 
     public int getMortgageValue() {
+
         return this.mortgageValue;
     }
 
     public String getColor() {
+
         return this.color;
     }
 
     public boolean getOwned() {
+
         return this.owned;
     }
 
