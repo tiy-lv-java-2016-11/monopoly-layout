@@ -1,4 +1,4 @@
-# Monopoly Layout
+# Property Layout
 
 ![boardpic](monopoly.jpg)
 
