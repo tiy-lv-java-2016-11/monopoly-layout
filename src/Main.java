@@ -18,6 +18,12 @@ public class Main {
 
     public static void main(String[] args) {
 
+        MonopolyVariation monoVar = new MonopolyVariation("40th Anniversary Deluxe Edition",
+                "Parker Brothers", 1975);
+        System.out.println(monoVar.getEdition() + " " + monoVar.getPublishedBy() +
+                " " + monoVar.getPublishedYear());
+
+
         Player userOne = new Player("Sajid", "Boot");
         System.out.println(userOne.getName() + " " + userOne.getToken());
         userOne.receiveMoney(2000);
@@ -32,7 +38,13 @@ public class Main {
         System.out.println(cardsOne.getTitle() + " " + cardsOne.getDescription());
 
         Property newHouse = new Property("Marvin Gardens", "Yellow", 24, 240);
-        System.out.println(newHouse.getName() + " " + newHouse.getColor() + " " + newHouse.getPrice() + " " + newHouse.getMortgageValue());
+        System.out.println(newHouse.getName() + " " + newHouse.getColor() + " " + newHouse.getPrice()
+                    + " " + newHouse.getMortgageValue() + " " + newHouse.getIsOwned());
+
+
+
+
+
 
 
     }

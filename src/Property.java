@@ -28,13 +28,23 @@ public class Property {
 
     }
 
-    public String getName() { return this.name; }
+    public String getName() {
+        return this.name;
+    }
 
-    public String getColor() { return this.color; }
+    public String getColor() {
+        return this.color;
+    }
 
-    public int getPrice() {return this.price; }
+    public int getPrice() {
+        return this.price;
+    }
 
-    public int getMortgageValue() { return this.mortgageValue; }
+    public int getMortgageValue() {
+        return this.mortgageValue;
+    }
 
-    public boolean getIsOwned() { return this.isOwned; }
+    public boolean getIsOwned() {
+        return this.isOwned;
+    }
 }

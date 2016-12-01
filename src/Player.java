@@ -12,12 +12,18 @@ public class Player {
         this.money = 1500;
     }
 
-    public String getName() { return this.name; }
-    public String getToken() { return this.token; }
-    public int getMoney() { return this.money; }
+    public String getName() {
+        return this.name;
+    }
+    public String getToken() {
+        return this.token;
+    }
+    public int getMoney() {
+        return this.money;
+    }
 
 
-    public void payMoney(int amount){
+    public void payMoney(int amount) {
         if(money < 1500) {
             this.money -= amount;
         System.out.println();
@@ -28,18 +34,18 @@ public class Player {
         }
         }
 
-    public void receiveMoney(int amount){
-        if(money > 1500) {
+    public void receiveMoney(int amount) {
+        if (money > 1500) {
             this.money += amount;
-        }
-        else{
-            System.out.println(this.money+= amount);
+        } else {
+            System.out.println(this.money += amount);
             System.out.println("Thanks for the money");
         }
+    }
 
 
 
 
 
-};}
+}
 
