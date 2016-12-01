@@ -6,7 +6,7 @@ public class Property {
     private String color;
     private int price;
     private int mortgage;
-    private boolean isowned;
+    private boolean isOwned;
 
 
     public Property(String name, String color, int price, int mortgage){
@@ -14,7 +14,7 @@ public class Property {
         this.color = color;
         this.price = price;
         this.mortgage = mortgage;
-        this. isowned = false;
+        this.isOwned = false;
     }
 
     public String getName(){
@@ -32,12 +32,12 @@ public class Property {
     public String getColor(){
         return this.color;
     }
-    public boolean getIsowned(){
-        return this.isowned;
+    public boolean getOwned(){
+        return this.isOwned;
     }
 
-    public void setIsowned(boolean isowned){
-        this.isowned = isowned;
+    public void setOwned(boolean owned){
+        this.isOwned = owned;
     }
 
 }
